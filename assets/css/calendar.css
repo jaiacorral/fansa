@@ -1,0 +1,1076 @@
+/*!
+ * Start Bootstrap - Creative v3.3.7+1 (http://startbootstrap.com/template-overviews/creative)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+html {
+  background: url('../img/bg2.jpg');
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+   }
+body {
+
+  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+}
+hr {
+  border-color: #740000;
+  border-width: 3px;
+  max-width: 50px;
+}
+
+.hrlong {
+  border-color: #404040;
+  border-width: 3px;
+  max-width: 100%;
+  margin: 0spx;
+}s
+
+hr.light {
+  border-color: white;
+}
+
+
+h2 {
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  text-align: center;
+      color: #fff;
+    font-size: 21px;
+    margin: 0;
+    line-height: 1em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+h3 {
+  font-size: 13px;
+  margin: 10px;
+  text-align: left;
+  color: #404040;
+  text-transform: uppercase;
+}
+h4 {
+  display: inline;
+  font-size: 12px;
+  margin: 2%;
+  text-align: left;
+  color: #ffffff;
+
+}
+
+h1,
+h6 {
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  text-align: left;
+}
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  text-align: left;
+  color: #404040;
+}
+
+.bg-dark {
+  background-image: url('../img/call to action bg.jpg');
+  color: white;
+  background-size: 100% 100%;
+  text-align: center;
+  text-transform: uppercase;
+}
+.text-faded {
+  color: rgba(255, 255, 255, 0.7);
+}
+section {
+  padding: 60px 0;
+  background-color: rgba(0,0,0, 0.8);
+}
+aside {
+  padding: 20px 0;
+}
+.no-padding {
+  padding: 0;
+  margin-top: 30%;
+}
+.navbar-default {
+  background-image: url('../img/bg.jpg');
+  background-position: center center;
+  border-color: transparent;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  -webkit-transition: all 0.35s;
+  -moz-transition: all 0.35s;
+  transition: all 0.35s;
+}
+.navbar-default .navbar-header .navbar-brand {
+   background-image: url('../img/garena.jpg');
+    background-size: 100% 100%;
+  color: transparent;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.navbar-default .navbar-header .navbar-brand:hover,
+.navbar-default .navbar-header .navbar-brand:focus {
+  color: transparent;
+}
+.navbar-default .navbar-header .navbar-toggle {
+  font-weight: 700;
+  font-size: 12px;
+  color: #fff;
+  text-transform: uppercase;
+}
+.navbar-default .nav > li > a,
+.navbar-default .nav > li > a:focus {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 13px;
+  color: #fff;
+}
+.navbar-default .nav > li > a:hover,
+.navbar-default .nav > li > a:focus:hover {
+  color: #F05F40;
+}
+.navbar-default .nav > li.active > a,
+.navbar-default .nav > li.active > a:focus {
+  color: #cc090f !important;
+  background-color: transparent;
+}
+.navbar-default .nav > li.active > a:hover,
+.navbar-default .nav > li.active > a:focus:hover {
+  background-color: transparent;
+}
+@media (min-width: 768px) {
+  .navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+  .navbar-default .navbar-header .navbar-brand {
+    color: rgba(255, 255, 255, 0.7);
+    background-image: url('../img/garena.jpg');
+    background-size: 100% 100%;
+    color: transparent;
+    margin-top: 5px;
+  }
+  .navbar-default .navbar-header .navbar-brand:hover,
+  .navbar-default .navbar-header .navbar-brand:focus {
+    color: transparent;
+  }
+  .navbar-default .nav > li > a,
+  .navbar-default .nav > li > a:focus {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  .navbar-default .nav > li > a:hover,
+  .navbar-default .nav > li > a:focus:hover {
+    color: white;
+  }
+  .navbar-default.affix {
+    background-color: transparent;
+    border-color: rgba(34, 34, 34, 0.05);
+  }
+  .navbar-default.affix .navbar-header .navbar-brand {
+    color: transparent;
+    font-size: 14px;
+  }
+  .navbar-default.affix .navbar-header .navbar-brand:hover,
+  .navbar-default.affix .navbar-header .navbar-brand:focus {
+    color: transparent;
+  }
+  .navbar-default.affix .nav > li > a:hover,
+  .navbar-default.affix .nav > li > a:focus:hover {
+    color: #F05F40;
+  }
+}
+header {
+  position: relative;
+  width: 100%;
+  min-height: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+header .header-content {
+  position: relative;
+  text-align: center;
+  padding: 100px 15px 100px;
+  width: 100%;
+
+}
+header .header-content .header-content-inner h1 {
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 30px;
+}
+header .header-content .header-content-inner hr {
+  margin: 30px auto;
+}
+header .header-content .header-content-inner p {
+  font-weight: 300;
+  color: #fff;
+  font-size: 16px;
+  margin-bottom: 50px;
+}
+@media (min-width: 768px) {
+  header {
+    height: 90%;
+  }
+  header .header-content {
+    position: absolute;
+    top: 80%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    padding: 0 0px;
+  }
+  header .header-content .header-content-inner {
+    max-width: 100%;
+    margin-left: 23%;
+    margin-right: 23%;
+  }
+  header .header-content .header-content-inner h1 {
+    font-size: 50px;
+    font-weight: 900;
+  }
+  header .header-content .header-content-inner p {
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.section-heading {
+  margin-top: 0;
+}
+.service-box {
+  max-width: 400px;
+  margin: 50px auto 0;
+}
+@media (min-width: 992px) {
+  .service-box {
+    margin: 0px auto 0;
+  }
+}
+.service-box p {
+  margin-bottom: 0;
+}
+.article-box {
+  filter: grayscale(100%);
+  position: relative;
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  background-image: url('../img/photogrid/thumbnails/9.jpg');
+  background-position: center;
+}
+.article-box:hover{
+  filter: none;
+}
+.article-box .article-box-caption {
+  color: white;
+  display: block;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  height: auto;
+  -webkit-transition: all 0.35s;
+  -moz-transition: all 0.35s;
+  transition: all 0.35s;
+}
+.article-box .article-box-caption .article-box-caption-content {
+  width: 100%;
+  text-align: center;
+ 
+}
+.article-box .article-box-caption .article-box-caption-content .article-category,
+.article-box .article-box-caption .article-box-caption-content .article-name {
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  padding: 0 15px;
+}
+.article-box .article-box-caption .article-box-caption-content .article-category {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 14px;
+}
+.article-box .article-box-caption .article-box-caption-content .article-name {
+  font-size: 18px;
+}
+.article-box:hover .article-box-caption {
+  
+  background-color: rgba(116,0,0, 0.7);
+
+}
+
+
+.article-box:focus {
+  outline: none;
+
+}
+@media (min-width: 768px) {
+  .article-box .article-box-caption .article-box-caption-content .article-category {
+    font-size: 20px;
+    text-align: left;
+    bottom: 0px;
+  }
+  .article-box .article-box-caption .article-box-caption-content .article-name {
+    font-size: 14px;
+    text-align: left;
+    bottom: 0px;
+  }
+}
+.call-to-action h2 {
+  margin: 0 auto 20px;
+  font-weight: 900;
+}
+.text-primary {
+  color: #F05F40;
+}
+.no-gutter > [class*='col-'] {
+  padding-right: 0;
+  padding-left: 0;
+}
+.btn-default {
+  color: #fff;
+  background-color: #740000;
+  border: 2px solid #fff;
+  -webkit-transition: all 0.35s;
+  -moz-transition: all 0.35s;
+  transition: all 0.35s;
+}
+.btn-default:hover,
+.btn-default:focus,
+.btn-default.focus,
+.btn-default:active,
+.btn-default.active,
+.open > .dropdown-toggle.btn-default {
+  color: #740000;
+  background-color: #000;
+  border: 2px solid #740000;
+}
+.btn-default:active,
+.btn-default.active,
+.open > .dropdown-toggle.btn-default {
+  background-image: none;
+}
+.btn-default.disabled,
+.btn-default[disabled],
+fieldset[disabled] .btn-default,
+.btn-default.disabled:hover,
+.btn-default[disabled]:hover,
+fieldset[disabled] .btn-default:hover,
+.btn-default.disabled:focus,
+.btn-default[disabled]:focus,
+fieldset[disabled] .btn-default:focus,
+.btn-default.disabled.focus,
+.btn-default[disabled].focus,
+fieldset[disabled] .btn-default.focus,
+.btn-default.disabled:active,
+.btn-default[disabled]:active,
+fieldset[disabled] .btn-default:active,
+.btn-default.disabled.active,
+.btn-default[disabled].active,
+fieldset[disabled] .btn-default.active {
+  background-color: white;
+  border-color: white;
+}
+.btn-default .badge {
+  color: white;
+  background-color: #222222;
+}
+.btn-primary {
+  color: white;
+  background-color: #F05F40;
+  border-color: #F05F40;
+  -webkit-transition: all 0.35s;
+  -moz-transition: all 0.35s;
+  transition: all 0.35s;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary.focus,
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+  color: white;
+  background-color: #ee4b28;
+  border-color: #ed431f;
+}
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+  background-image: none;
+}
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled.focus,
+.btn-primary[disabled].focus,
+fieldset[disabled] .btn-primary.focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active {
+  background-color: #F05F40;
+  border-color: #F05F40;
+}
+.btn-primary .badge {
+  color: #F05F40;
+  background-color: white;
+}
+.btn {
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  border: none;
+  border-radius: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.btn-xl {
+  padding: 15px 30px;
+}
+::-moz-selection {
+  color: white;
+  text-shadow: none;
+  background: #222222;
+}
+::selection {
+  color: white;
+  text-shadow: none;
+  background: #222222;
+}
+img::selection {
+  color: white;
+  background: transparent;
+}
+img::-moz-selection {
+  color: white;
+  background: transparent;
+}
+
+
+.buttonholder {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+  padding-left: 30px;
+}
+
+.space {
+  height: 20px;
+}
+
+@media (max-width: 767px){
+  .space {
+  height: 0px;
+}
+}
+
+.fullwidth {
+  width: 100%;
+}
+
+.footer-social-icons {
+    width: 350px;
+    display:block;
+    margin: 0 auto;
+}
+.social-icon {
+    color: #fff;
+}
+ul.social-icons {
+    margin-top: 30px;
+}
+.social-icons li {
+    vertical-align: top;
+    display: inline;
+}
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.fa-facebook {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: transparent;
+}
+.fa-facebook:hover {
+    background-color: #3d5b99;
+}
+.fa-twitter {
+    padding:10px 12px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: transparent;
+}
+.fa-twitter:hover {
+    background-color: #00aced;
+}
+.fa-youtube {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: transparent;
+}
+.fa-youtube:hover {
+    background-color: #e64a41;
+}
+
+.is-active {
+  -webkit-text-fill-color: #cc090f;
+}
+
+.clearfix:before,
+.clearfix:after {
+ display: table;
+  content: " ";
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.page-content {
+    height: 55%;
+    position: relative;
+    background-size: cover!important;
+    background-position: center!important;
+    margin-top: 6%;
+}
+
+.featured-container {
+      padding: 40px 0px 20%;
+}
+
+.item-container {
+      margin: 0 auto;
+    position: relative;
+    max-width: 1200px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 15px;
+    padding-bottom: 15%;
+}
+
+.container {
+      margin: 0 auto;
+    position: relative;
+    max-width: 1200px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+.block {
+  display: block;
+}
+
+.featured-items {
+ margin-top: 45px;
+}
+
+.item-container {
+   position: relative;
+   margin-left: 1.8%;
+    width: 31%;
+    
+    float: left;
+}
+
+.item {
+  float: left;
+  color: #fff;
+  text-decoration: none;
+  
+  background-size: cover!important;
+  background-repeat: no-repeat;
+   width: 100%;
+    position: absolute;
+}
+
+.center {
+  display: block;
+    margin: auto;
+    width: 7%;
+}
+
+.right {
+  display: block;
+  margin-left: 93%;
+  width: 7%;
+}
+
+.left {
+  display: block;
+  margin-right: 93%;
+  width: 7%;
+}
+
+.link-title-container {
+  display: block;
+  margin-top: 40%;
+  margin-left: 5%;
+}
+
+.bar {
+    width: 100%;
+    font-size: 13px;
+    background: #fff;
+    border-bottom: 1px solid #e4e4e4;
+    min-height: 24px;
+    padding: 0;
+    margin-bottom: -1px;
+}
+.bar2 {
+    font-size: 13px;
+    background: #f0f1f5;
+    border-bottom: 1px solid #e4e4e4;
+    min-height: 24px;
+    padding: 0;
+    margin-bottom: 1%;
+}
+
+
+/* Style the tab */
+div.tab {
+    font-size: 13px;
+    margin-top: 5px;
+    text-align: left;
+    color: #404040;
+    text-transform: uppercase;
+    width: 100%;
+    height: 49px;
+}
+
+
+
+/* Style the buttons inside the tab */
+div.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    margin-right: 3%;
+    background-color: #cccccc;
+    color: white;
+    border-bottom: solid;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+
+/* Create an active/current tablink class */
+div.tab button.active{
+    font-weight: 700;
+    border-bottom: solid;
+    background-color: #f0f1f5;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+ div.tab button.active.red{
+ color: #cc090f;
+ border-color: transparent;
+}
+
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    border-top: none;
+}
+.divcontent {
+color: #404040;
+font-size: large;
+padding: 10px;
+}
+
+.divinner {
+    width: 100%;
+    min-height: 20px;
+    height: auto;
+    background-color:  #fafafc;
+    margin-bottom: 2px;
+}
+
+.divinner2 {
+    width: 100%;
+    height: 100%;
+    background-color:  #fafafc;
+    margin-bottom: 2px;
+}
+
+.divinner:hover, .divinner2:hover {
+  background-color: #ffffff;
+  
+}
+.line {
+    width: 100%;
+    padding: 20px 20px 20px 100px;
+    cursor: pointer;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.width85 {
+  width: 85%;
+}
+
+.timeholder {
+    color: black;
+    position: absolute;
+    width: 100px;
+    height: 70px;
+    line-height: 70px;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    overflow: hidden;
+}
+
+.lineholder {
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    overflow: hidden;
+    background: #49bb47;
+    transform: skew(-10deg);
+    color: white;
+}
+
+.lineholder2 {
+    height: 30px;
+    line-height: 30px;
+    font-size: 11.5px;
+    font-weight: 300;
+    text-align: center;
+    overflow: hidden;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: #8a8a8a;
+}
+
+.float-left {
+  float: left;
+}
+.float-right {
+  float: right;
+}
+
+.tournament-info {
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+    height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.team-info {
+    margin-top: 10px;
+    font-size: 12px;
+    line-height: 6px;
+    height: 6px;
+    text-overflow: visible;
+    color: #43434d;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.gamefilter {
+  padding: 0px;
+  margin: 0px;
+  float: left;
+}
+
+.barspace {
+  width: 4%;
+  height: 100%;
+}
+
+.secondary {
+  background-color: transparent;
+  border-color: transparent;
+    transition: 0.4s;
+    opacity: 1;
+}
+
+/* ADD NEW IMAGE EFFECTS HERE  */
+
+.secondary:hover { 
+  background-color: transparent;
+  border: 2px solid;
+  border-color: white;
+    transition: 0.4s;
+    opacity: 1;
+}
+
+.tablinks {
+  padding: 0px 1% 0px 1%;
+}
+
+
+button.accordion {
+    background-color: transparent;
+    width: 100%;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+
+
+
+div.panel {
+    background-color: white;
+    height: auto;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.tournamenthead {
+  text-align: center;
+  color: black;
+  background-color: #fafafc;
+  border-right: 3px solid #f0f1f5;
+  border-bottom: 3px solid #f0f1f5;
+
+}
+
+.tournamentbody {
+  text-align: left;
+  color: black;
+  border-right: 3px solid #f0f1f5;
+  padding: 5px;
+}
+
+.column0 {
+  width: 3%;
+}
+
+.column1 {
+  min-width: 60px;
+  width: 6%;
+}
+
+.column2 {
+  min-width: 90px;
+  width: 16%;
+}
+
+.column3 {
+  min-width: 90px;
+  width: 21%;
+}
+
+.column4 {
+  min-width: 90px;
+  width: 49%;
+}
+
+.column5 {
+  width: 8%;
+}
+
+.fullheight {
+  min-height: 35px;
+  height: 100%;
+}
+
+.fullheight2 {
+  min-height: 500px;
+  height: 100%;
+}
+
+.fullheight3 {
+  min-height: 300px;
+  height: 100%;
+}
+
+.halfwidth {
+  width: 50%;
+}
+
+.inline {
+  display: -webkit-inline-box
+}
+
+.border {
+  margin: 10px;
+}
+
+.tournamentbutton:hover, .tournamentbutton:active {
+      color: transparent;
+    border-bottom: none;
+}
+
+
+.opentab, .opentab:hover{
+    transition: 0.4s;
+    opacity: 1;
+}
+
+.all {
+  color: #ffffff;
+    border-bottom: solid;
+}
+
+.secondary .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+
+    /* Position the tooltip text */
+    position: absolute;
+    z-index: 1;
+    top: 50px;
+    margin-left: -7%;
+
+    /* Fade in tooltip */
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+
+.secondary .tooltiptext::after {
+    content: "";
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.secondary:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+/* Dropdown Button */
+.dropbtn {
+     background-color: transparent; 
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    text-align: left;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    padding: 0px 2px 0px 2px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+.middle {
+  text-align: center;
+}
+
+
+.red:hover {
+ color: #cc090f;
+ border-color: #cc090f;
+}
+
+.addborder {
+  border: 7px solid #cc090f;
+}
+
+.horizontalspace {
+  width: 10%;
+}
+
+.lol {
+  padding-left: 24%;
+}
+
+.pb {
+  padding-left: 31%;
+}
+
+tr {
+  height: 35px;
+}

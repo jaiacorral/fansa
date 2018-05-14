@@ -1,0 +1,114 @@
+Title: Home
+
+----
+
+Intro: Yay! If you are seeing this, the installation of Kirby worked. :-)
+
+----
+
+Text: 
+
+## Get started
+
+- Go to the (link: panel text: Panel) to give Kirby's admin interface a try
+- Check out the (link: http://getkirby.com/docs text: docs) and start building your own site
+- Follow (twitter: @getkirby) on Twitter for updates
+- Visit the (link: http://forum.getkirby.com text: forum) to connect with other Kirby users
+- Sign up to (link: https://getkirby.com/#kosmos text: Kirby Kosmos), our monthly newsletter
+- (link: http://getkirby.com/support text: Get in contact) if you need support.
+
+**Have fun with Kirby!**
+
+----
+
+Banners: 
+
+- 
+  slot: "1"
+  title: Picture 1
+  image: https://i.imgur.com/Q3Mgcvw.jpg
+  link: https://i.imgur.com/Q3Mgcvw.jpg
+  description: By jshpbln from Philippines
+  artist: jshpbln
+  country: Philippines
+- 
+  slot: "2"
+  title: Title 2
+  description: By jshpbln from Philippines
+  image: >
+    https://0.soompi.io/wp-content/uploads/2017/10/29084824/kpop-idols-hands.jpg
+  link: >
+    https://0.soompi.io/wp-content/uploads/2017/10/29084824/kpop-idols-hands.jpg
+  artist: foozoo
+  country: Italy
+- 
+  slot: "3"
+  title: Title 3
+  description: By jshpbln from Philippines
+  image: >
+    https://0.soompi.io/wp-content/uploads/2017/10/21203502/TWICE.jpg
+  link: >
+    https://0.soompi.io/wp-content/uploads/2017/10/21203502/TWICE.jpg
+  artist: asdfasdf
+  country: South Korea
+
+----
+
+Articles: 
+
+- 
+  slot: "1"
+  title: Boy Groups
+  image: >
+    https://cdn.hk01.com/di/media/images/1214685/org/9f654b0c384d56c7e349fbed8efa7959.jpg/gd1xdfu_RZe9XJ1voUDg0DINThBHCXdwXVV1cV1VdXE?v=w1920
+  link: >
+    https://cdn.hk01.com/di/media/images/1214685/org/9f654b0c384d56c7e349fbed8efa7959.jpg/gd1xdfu_RZe9XJ1voUDg0DINThBHCXdwXVV1cV1VdXE?v=w1920
+  description: Sample Description 1
+- 
+  slot: "2"
+  title: Girl Groups
+  description: Description 2
+  image: >
+    http://kt.wowkorea.jp/img/album/7/35621/66462.jpg
+  link: >
+    http://kt.wowkorea.jp/img/album/7/35621/66462.jpg
+- 
+  slot: "3"
+  title: Co-Ed Groups
+  description: Description 3
+  image: >
+    https://data.whicdn.com/images/291952119/original.jpg
+  link: >
+    https://data.whicdn.com/images/291952119/original.jpg
+- 
+  slot: "4"
+  title: Solo Artists
+  description: Supercalifragilisticexpialidocious
+  image: >
+    https://www.weimeicun.com/uploads/allimg/180425/1016-1P4251509164D.jpg
+  link: >
+    https://www.weimeicun.com/uploads/allimg/180425/1016-1P4251509164D.jpg
+- 
+  slot: "5"
+  title: K-Drama
+  description: Description 5
+  image: >
+    https://i.mpic.ws/2017/08/02/4a97a3d7.jpg
+  link: >
+    https://i.mpic.ws/2017/08/02/4a97a3d7.jpg
+- 
+  slot: "6"
+  title: Actors
+  description: Description 6
+  image: >
+    https://baomoi-photo-1-td.zadn.vn/w700_r1/18/02/07/18/24889441/1_38390.jpg
+  link: >
+    https://baomoi-photo-1-td.zadn.vn/w700_r1/18/02/07/18/24889441/1_38390.jpg
+- 
+  slot: "7"
+  title: Actresses
+  description: Long Description 7 Long Description 7
+  image: >
+    https://pbs.twimg.com/profile_images/865179813966888960/Ac-ilg8V_400x400.jpg
+  link: >
+    https://pbs.twimg.com/profile_images/865179813966888960/Ac-ilg8V_400x400.jpg

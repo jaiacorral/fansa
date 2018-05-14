@@ -1,0 +1,5 @@
+Title: News
+
+----
+
+Text: LOREM IPSUM DOLOR SIT AMET

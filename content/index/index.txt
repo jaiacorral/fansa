@@ -1,0 +1,30 @@
+Title: Index
+
+----
+
+Banners: 
+
+- 
+  slot: "1"
+  title: Title
+  image: ss
+  link: http://facebook.com
+
+----
+
+Articles: 
+
+- 
+  slot: "1"
+  title: Title
+  image: dsadf
+  link: http://facebook.com
+- 
+  slot: "1"
+  title: sample
+  image: asdf
+  link: http://twitter.com
+
+----
+
+Text: 

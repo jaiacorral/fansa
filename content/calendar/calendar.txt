@@ -1,0 +1,258 @@
+Title: Calendar
+
+----
+
+Text: 
+
+----
+
+Featured-matches: 
+
+- 
+  slot: "1"
+  title: Azure Eagles vs Viridus Arcus
+  image: >
+    https://i.ytimg.com/vi/sGRXIAh41IA/maxresdefault.jpg
+  link: http://facebook.com
+  game: >
+    https://d33jl3tgfli0fm.cloudfront.net/helix/images/games/league-of-legends/icon.png
+- 
+  slot: "1"
+  game: >
+    https://d33jl3tgfli0fm.cloudfront.net/helix/images/games/league-of-legends/icon.png
+  title: Teemo Cup 2017
+  image: >
+    https://i.ytimg.com/vi/sGRXIAh41IA/maxresdefault.jpg
+  link: http://twitter.com
+- 
+  slot: "3"
+  game: >
+    https://d33jl3tgfli0fm.cloudfront.net/helix/images/games/league-of-legends/icon.png
+  title: Point Blank Tourney
+  image: >
+    https://i.ytimg.com/vi/sGRXIAh41IA/maxresdefault.jpg
+  link: http://linkedin.com
+
+----
+
+Games: 
+
+- 
+  game: Point Blank
+  date: 2017-07-06
+  time: 15:00
+  tournament: Sample Tournament 1
+  team1: Team 1
+  team2: Team 2
+  live: 'true'
+  link: http://facebook.com
+  finished: 'true'
+  winner: ""
+- 
+  game: Heroes of Newerth
+  datetime: ""
+  tournament: 'World Championship - Finals'
+  team1: Sample Team 1
+  team2: Sample Team 2
+  live: 'true'
+  link: http://google.com
+  time: 14:00
+  date: 2017-06-29
+  finished: 'false'
+  winner: ""
+- 
+  game: Heroes of Newerth
+  date: 2017-07-08
+  time: 13:00
+  tournament: ASDF Tourney
+  team1: T1
+  team2: T2
+  live: 'true'
+  link: http://facebook.com
+  finished: 'true'
+  winner: ""
+- 
+  game: League of Legends
+  date: 2017-07-14
+  time: 10:00
+  tournament: NA LCS
+  team1: TSM
+  team2: C9
+  finished: 'false'
+  link: http://facebook.com
+- 
+  game: League of Legends
+  date: 2017-06-11
+  time: 18:00
+  tournament: EU LCS
+  team1: FNC
+  team2: G2
+  finished: 'true'
+  link: http://facebook.com
+- 
+  game: Point Blank
+  date: 2017-06-09
+  time: 04:00
+  tournament: Sample
+  team1: Sample
+  team2: Sample
+  finished: 'false'
+  link: http://facebook.com
+
+----
+
+Featuredmatches: 
+
+- 
+  slot: "1"
+  game: >
+    https://d33jl3tgfli0fm.cloudfront.net/helix/images/games/league-of-legends/icon.png
+  title: Azure Eagles vs. Viridus Arcus
+  image: >
+    https://i.ytimg.com/vi/sGRXIAh41IA/maxresdefault.jpg
+  link: http://facebook.com
+- 
+  slot: "2"
+  game: >
+    https://d33jl3tgfli0fm.cloudfront.net/helix/images/games/league-of-legends/icon.png
+  title: Teemo Cup 2017
+  image: >
+    https://i.ytimg.com/vi/sGRXIAh41IA/maxresdefault.jpg
+  link: http://twitter.com
+- 
+  slot: "3"
+  game: >
+    https://d33jl3tgfli0fm.cloudfront.net/helix/images/games/league-of-legends/icon.png
+  title: Point Blank Tourney
+  image: >
+    https://i.ytimg.com/vi/sGRXIAh41IA/maxresdefault.jpg
+  link: http://linkedin.com
+
+----
+
+Tournaments: 
+
+- 
+  game: League of Legends
+  date: 2017-07-22
+  region: North and Central Luzon
+  name: GCALP
+  address: >
+    Rizal Street, Brgy. II-Poblacion,
+    Himamaylan City, Negros Occidental
+  winner: ""
+  link: >
+    http://esports.garena.ph/eventsArticle.php?calendarid=00002484
+  area: Negros Occidental
+  computershop: Zayconet Internet Services
+  size: "11"
+- 
+  game: League of Legends
+  date: 2017-07-16
+  region: NCR
+  name: GCALP
+  address: >
+    17 Diego silang, cor.ner g Del Pilar,
+    Parang, Marikina
+  winner: ""
+  link: >
+    http://esports.garena.ph/eventsArticle.php?calendarid=00002483
+  area: Marikina
+  computershop: Moggz Gaming Hub
+  size: "16"
+- 
+  game: Point Blank
+  date: 2017-07-08
+  region: South Luzon
+  name: "Captain's League"
+  address: >
+    144 San Guillermo st., Putatan,
+    Muntinlupa City
+  winner: ""
+  link: >
+    http://esports.garena.ph/eventsArticle.php?calendarid=00002472
+  area: Muntinlupa City
+  computershop: R.D Intenet Cafe
+  size: "32"
+- 
+  game: League of Legends
+  date: 2017-07-23
+  region: NCR
+  name: Academy Arena
+  address: >
+    Center Building, 48 Polaris, Makati,
+    Metro Manila, Philippines
+  winner: ""
+  link: >
+    http://esports.garena.ph/eventsArticle.php?calendarid=00002473
+  area: Makati
+  computershop: Coreon Gate Makati
+  size: "12"
+- 
+  game: League of Legends
+  date: 2017-08-20
+  region: North and Central Luzon
+  name: "Piltover's Finest"
+  address: >
+    1659 Jade Street, Carpa Village,
+    Barangay Sabang, Baliuag, Bulacan
+  winner: ""
+  link: >
+    http://esports.garena.ph/eventsArticle.php?calendarid=00002503
+  area: Bulacan
+  computershop: MaiMai Computers
+  size: "16"
+- 
+  game: League of Legends
+  date: 2017-07-01
+  region: South Luzon
+  name: GCALP
+  address: >
+    Door 1 LCC Building Liboton St.,
+    Bagumbayan Sur, Naga City, Camarines Sur
+  winner: ""
+  link: >
+    http://esports.garena.ph/eventsArticle.php?calendarid=00002461
+  area: Camarines Sur
+  computershop: Tropang Makulit I-Shop
+  size: "8"
+- 
+  game: League of Legends
+  date: 2017-07-15
+  region: Visayas
+  area: Negros Occidental
+  name: Teemo Cup
+  computershop: Garahe sa Loney
+  address: Loney St. Brgy., Mambulac Silay City
+  size: "16"
+  link: >
+    http://esports.garena.ph/eventsArticle.php?calendarid=00002465
+- 
+  game: League of Legends
+  date: 2017-07-15
+  region: South Luzon
+  area: Cavite
+  name: GCALP
+  computershop: Bits and Pieces Internet Cafe
+  address: >
+    2nd Flr YVAS Bldg., Block 81 Lot 20
+    Brgy. San Esteban, Dasmariñas City,
+    Cavite
+  size: "16"
+  link: >
+    http://esports.garena.ph/eventsArticle.php?calendarid=00002476
+- 
+  game: Point Blank
+  date: 2017-07-09
+  region: South Luzon
+  area: Camarines Sur
+  name: Online Tournament
+  computershop: Rally Point
+  address: '#20 Ateneo Avenue, Bagumbayan Sur, Naga City, Camarines Sur'
+  size: "16"
+  link: >
+    http://esports.garena.ph/eventsArticle.php?calendarid=00002531
+
+----
+
+Backgroundimage: http://news.cdn.leagueoflegends.com/public/images/misc/Background.jpg
