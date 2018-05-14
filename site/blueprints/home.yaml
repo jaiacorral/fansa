@@ -1,0 +1,101 @@
+title: Overview
+
+files: false
+pages: false
+
+options:
+  delete: false
+  preview: true
+  template: false
+  url: false
+
+fields:
+  title:
+    type: text
+  banners:
+    label: Banners
+    modalsize: large
+    required: true
+    style: table
+    type: structure
+    entry: >
+      {{slot}} {{title}} {{artist}} {{image}} {{link}} {{country}}
+    fields:
+      slot:
+        label: Banner Slot
+        required: true
+        type: select
+        options:
+          1: Slot 1
+          2: Slot 2
+          3: Slot 3
+          4: Slot 4
+          5: Slot 5
+      title:
+        help: 1-10 words, 50 characters.
+        label: Title
+        required: true
+        type: text
+        validate:
+          maxLength: 50
+          maxWords: 10
+      artist:
+        label: Artist Name
+        type: text
+        required: true
+      image:
+        help: Recommended size is 1320 x 900.
+        label: CDN Image
+        required: true
+        type: text
+      link:
+        label: External Link
+        required: true
+        type: url
+      country:
+        label: Country
+        required: true
+        type: text  
+        
+  articles:
+    label: Categories
+    modalsize: large
+    required: true
+    style: table
+    type: structure
+    entry: >
+      {{slot}} {{title}} {{image}} {{link}}
+    fields:
+      slot:
+        label: Article Slot
+        required: true
+        type: select
+        width: 1/5
+        options:
+          1: Slot 1
+          2: Slot 2
+          3: Slot 3
+          4: Slot 4
+          5: Slot 5
+          6: Slot 6
+          7: Slot 7
+          8: Slot 8
+          9: Slot 9
+          10: Slot 10
+      title:
+        help: 1-5 words, 30 characters.
+        label: Title
+        required: true
+        type: text
+        validate:
+          maxLength: 30
+          maxWords: 5 
+      image:
+        help: Recommended size is 140 x 165.
+        label: CDN Image
+        required: true
+        type: text
+      link:
+        label: External Link
+        required: true
+        type: url

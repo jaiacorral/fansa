@@ -1,0 +1,113 @@
+title: Overview
+
+files: false
+pages: false
+
+options:
+  delete: false
+  preview: true
+  template: true
+  url: false
+
+fields:
+  title:
+    type: text
+  backgroundimage:
+    label: Link to Background Image
+    required: true
+    type: text
+    help: Size is any 16:9 aspect ratio image
+  featuredmatches:
+    label: Featured Tournaments
+    modalsize: large
+    required: true
+    style: table
+    type: structure
+    entry: >
+      {{slot}} {{game}} {{title}} {{image}} {{link}}
+    fields:
+      slot:
+        label: Feature Slot
+        required: true
+        type: select
+        options:
+          1: Slot 1
+          2: Slot 2
+          3: Slot 3
+      game:
+        help: Size is 256 x 256
+        label: Game Icon Link
+        required: true
+        type: text
+          
+      title:
+        help: 1-10 words, 50 characters.
+        label: Title
+        required: true
+        type: text
+        validate:
+          maxLength: 50
+          maxWords: 10
+      image:
+        help: Recommended size is any 16:9 aspect ratio image
+        label: CDN Image
+        required: true
+        type: text
+      link:
+        label: External Link
+        required: true
+        type: url
+        
+  tournaments:
+    label: Tournaments
+    modalsize: large
+    required: true
+    style: table
+    type: structure
+    entry: >
+      {{game}} {{date}} {{area}} {{name}} {{computershop}} {{address}} {{link}}
+    fields:
+      game:
+        label: Game
+        type: radio
+        options:
+          League of Legends: League of Legends
+          Point Blank: Point Blank
+        required: true
+      date:
+        label: Date
+        type: date
+        default: now 
+        format: dd/mm/yyyy
+      area:
+        label: Area
+        type: text
+        required: true
+
+      name:
+        label: Tournament Name
+        type: radio
+        options:
+          Academy Arena: Academy Arena
+          Captain's League: Captain's League
+          GCALP: GCALP
+          Shooting Grounds: Shooting Grounds
+          Lulu Cup: Lulu Cup
+          Cadet Cup: Cadet Cup
+          Teemo Cup: Teemo Cup
+          Online Tournament: Online Tournament
+          Piltover's Finest: Piltover's Finest
+          
+        required: true
+      
+      computershop:
+        label: Internet Café Name
+        type: text
+        required: true
+      address:
+        label: Address
+        type: text
+        required: true
+      link:
+        label: External Link
+        type: url
