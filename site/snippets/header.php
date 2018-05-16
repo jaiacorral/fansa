@@ -36,7 +36,32 @@
 <body id="page-top">
     
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
-            <div class="login">WHY IS THIS NOT SHOWING</div>
+            <div class="login">
+                <div class="col-lg-2"></div>
+                    <div class="col-lg-4"> 
+                            <div class="search-container">
+                                    <form action="/action_page.php">
+                                        <button type="submit"><i class="fa fa-search"></i></button>
+                                      <input type="text" placeholder="Search.." name="search">
+                                    </form>
+                                  </div>
+                    </div>
+                    <div class="col-lg-4"></div>
+                    <div class="col-lg-2">
+                        <a class="login" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Log In</a>
+                        &nbsp;
+                        |
+                        &nbsp;
+                        <a class="login" href="register">Register</a>
+                    </div>
+            </div>
+
+            
+
+            <div class="container">
+            
+                    
+            
         <div class="container-fluid d-block col-lg-10 col-lg-offset-1-5" >
             <div class="navbar-header">
                 <button type=   "button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -62,4 +87,28 @@
             </div>
         </div>
         <!-- /.container-fluid -->
+        <div id="id01" class="modal">
+                <div class="col-lg-3"></div>
+                <form class="modal-content animate col-lg-6" action="/action_page.php">
+                  <div class="imgcontainer">
+                    <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                    
+                  </div>
+              
+                  <div class="container">
+                        <div class="ml-auto d-block"> 
+                                <h2 class="section-heading" style="color:#FDAE84; text-align:left;">LOG IN</h2>
+                    
+                    <input type="text" placeholder="Enter Username" name="uname" class="modalinput col-lg-6" required><div class="col-lg-7"></div>
+              
+                    
+                    <input type="password" placeholder="Enter Password" name="psw" class="modalinput col-lg-6" required><div class="col-lg-7"></div>
+                      
+                    <div class="col-lg-6"><button type="submit" class="loginmodal col-lg-4">Log in</button></div><div class="col-lg-7"></div>
+                    <div class="col-lg-6" style="margin-left: 17%;"><a href="#" class="loginmodal col-lg-4">Forgot Password</a></div><div class="col-lg-7"></div>
+                  </div></div>
+                </form>
+              </div>
     </nav>
+
+    

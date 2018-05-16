@@ -32,35 +32,35 @@
     <section class="bg-primary translateY" id="about">
 <header>
         <div class="header-content" style="margin-top: 20%;">
-
+            
               <div class="header-content-inner">
                 <br>
                 <!-- <img class="rounded-circle img-fluid" src="http://placehold.it/125x125" alt="" style ="width= 30%; "> -->
-                <h1 class="banner-title" id="homeHeading" ><?php echo $banners[0]["title"];?>
+                <h1 class="banner-title" id="homeHeading" ><?php echo $banners[0]["title"];?> 
                 <p>by <a href="<?php echo $banners[0]["artist"];?>"><?php echo $banners[0]["artist"];?></a> from <?php echo $banners[0]["country"];?></p></h1>
-
+                            
               </div>
        </div>
-
+              
     </header>
     <hr>
         <br>
-        <div class="container">
+        
 
 
-
+            
             <div class="row">
                 <div class="col-lg-10 col-sm-12 col-lg-offset-1 text-center">
                     <section class="no-padding">
         <div class="container-fluid">
         <div class="container-fluid white-bg">
-                <div class="ml-auto d-block center">
-                        <br><h1 class="section-heading blacktext categories">Categories</h1><br>
+                <div class="ml-auto d-block center"> 
+                        <h1 class="section-heading blacktext categories">Categories</h1>
                 </div>
-
+            
             <div class="row popup-gallery">
             <?php $articles = $page->articles()->yaml(); ?>
-
+                
 
 
 
@@ -72,7 +72,7 @@
                                 <div class="article-category text-faded">
                                     <?php echo $articles[0]["title"];?>
                                 </div>
-
+                               
                             </div>
                         </div>
                     </a>
@@ -155,7 +155,7 @@
         </div>
     </section>
     <br><br>
-
+                    
                 </div>
             </div>
             <div class="row">
@@ -163,34 +163,34 @@
                         <section class="no-padding">
             <div class="container-fluid">
             <div class="container-fluid white-bg">
-                    <div class="ml-auto d-block center col-lg-12">
+                    <div class="ml-auto d-block center col-lg-12"> 
                             <h1 class="section-heading blacktext featured col-lg-6">Featured Artists</h1>
                             <h1 class="section-heading blacktext date col-lg-6 ">January 2018</h1>
                     </div>
-
+                
                 <div class="row popup-gallery">
                 <?php $articles = $page->articles()->yaml(); ?>
-
-
-
-
+                    
+    
+    
+    
                             <div class="col-lg-6 row no-gutter popup-gallery">
-
+                                
                     <div class="col-lg-6 col-sm-6">
                         <a href="<?php echo $articles[0]["link"];?>" class="article-box" style="background-size: cover; height: 24em; background-image: url('<?php echo $articles[0]["image"];?>')">
-
+                            
                         </a>
                     </div>
-
+    
                     <div class="col-lg-6 col-sm-6">
                         <a href="<?php echo $articles[1]["link"];?>" class="article-box" style="background-size: cover; height: 12em; background-image: url('<?php echo $articles[1]["image"];?>')">
-
+                            
                         </a>
                     </div>
-
+    
                     <div class="col-lg-6 col-sm-6">
                         <a href="<?php echo $articles[2]["link"];?>" class="article-box" style="background-size: cover; height: 12em; background-image: url('<?php echo $articles[2]["image"];?>')">
-
+                            
                         </a>
                     </div>
                 </div>
@@ -198,26 +198,26 @@
                             <div class=" col-lg-6 row no-gutter popup-gallery">
                     <div class="col-lg-12 col-sm-6">
                         <a href="<?php echo $articles[4]["link"];?>" class="article-box" style="background-size: cover; height: 12em; background-image: url('<?php echo $articles[4]["image"];?>')">
-
+                            
                         </a>
                     </div>
-
+    
                     <div class="col-lg-6 col-sm-6">
                         <a href="<?php echo $articles[5]["link"];?>" class="article-box" style="background-size: cover; height: 12em; background-image: url('<?php echo $articles[5]["image"];?>')">
-
+                            
                         </a>
                     </div>
-
+    
                     <div class="col-lg-6 col-sm-6">
                             <a href="<?php echo $articles[6]["link"];?>" class="article-box" style="background-size: cover; height: 12em; background-image: url('<?php echo $articles[6]["image"];?>')">
-
+                                
                             </a>
                         </div>
                 </div>
             </div>
         </section>
         <br>
-
+                        
                     </div>
                 </div>
 
@@ -226,5 +226,5 @@
 
     <?php snippet('footer') ?>
 </section>
-
+   
 </html>
